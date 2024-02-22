@@ -27,7 +27,7 @@ jobs:
         java-version: '21'
         distribution: 'corretto'
         cache: maven
-    
+
     - name: Build the application
       run: |
         mvn clean
