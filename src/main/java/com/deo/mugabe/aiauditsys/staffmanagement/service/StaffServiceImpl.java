@@ -3,14 +3,12 @@ package com.deo.mugabe.aiauditsys.staffmanagement.service;
 import com.deo.mugabe.aiauditsys.staffmanagement.domain.JobTitle;
 import com.deo.mugabe.aiauditsys.staffmanagement.domain.Staff;
 import com.deo.mugabe.aiauditsys.staffmanagement.domain.dto.request.StaffRequest;
-import com.deo.mugabe.aiauditsys.staffmanagement.domain.dto.response.JobTitleResponse;
 import com.deo.mugabe.aiauditsys.staffmanagement.domain.dto.response.StaffResponse;
 import com.deo.mugabe.aiauditsys.staffmanagement.errors.NotFoundException;
 import com.deo.mugabe.aiauditsys.staffmanagement.repository.JobTitleRepository;
 import com.deo.mugabe.aiauditsys.staffmanagement.repository.StaffRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
